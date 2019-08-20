@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games App</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+
+  <body class="bg">
+    <div id="root"></div>
+    <script src="scripts.js"></script>
+  </body>
+
+<style>
+
+.bg {
+  background-image: url("images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  border-radius: 50%;
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+    #root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  white-space: pre;
+
+}
+.card-header{
+white-space:normal;
+}
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+</style>
+</html>
+
